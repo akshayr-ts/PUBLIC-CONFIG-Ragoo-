@@ -119,9 +119,9 @@
 		]
 	},
 	"settings": {
-		"githubUrl": "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/pipeline-config.json",
+		"githubUrl": "https://raw.githubusercontent.com/akshayr-ts/PUBLIC-CONFIG-Ragoo-/fe1ab0964b6bc09afe8c374246352b0575ac694c/pipeline-config.json",
 		"fallbackEnabled": true,
 		"autoUpdate": true,
-		"cacheExpiry": 3600000
+		"cacheExpiry": 0
 	}
 }
