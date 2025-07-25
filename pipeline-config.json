@@ -1,13 +1,20 @@
 {
 	"pipeline": {
-		"version": "1.0.0",
+		"version": "1.1.0",
 		"lastUpdated": "2025-01-25",
-		"description": "Zoho Recruit Pipeline Configuration for Ragoo! Extension",
+		"description": "Zoho Recruit Pipeline Configuration for Ragoo! Extension - Updated to match actual pipeline",
 		"stages": [
 			{
 				"label": "Applied",
 				"short": "APL",
 				"value": "Applied",
+				"background": "#a54444",
+				"badgeClass": "apple-blossom"
+			},
+			{
+				"label": "AI Applications",
+				"short": "AIA",
+				"value": "AI Applications",
 				"background": "#a54444",
 				"badgeClass": "apple-blossom"
 			},
@@ -29,6 +36,13 @@
 				"label": "ShortList",
 				"short": "SL",
 				"value": "ShortList",
+				"background": "#d0a72b",
+				"badgeClass": "sheen-gold"
+			},
+			{
+				"label": "Call not answered",
+				"short": "CNA",
+				"value": "Call not answered",
 				"background": "#d0a72b",
 				"badgeClass": "sheen-gold"
 			},
@@ -59,6 +73,20 @@
 				"value": "Submitted",
 				"background": "#00868c",
 				"badgeClass": "darkgreen"
+			},
+			{
+				"label": "Interview",
+				"short": "INT",
+				"value": "Interview",
+				"background": "#CCD118",
+				"badgeClass": "birdflower-green"
+			},
+			{
+				"label": "Offered",
+				"short": "OFF",
+				"value": "Offered",
+				"background": "#f59e0b",
+				"badgeClass": "yellow"
 			},
 			{
 				"label": "Hired",
